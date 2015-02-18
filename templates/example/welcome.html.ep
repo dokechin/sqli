@@ -1,0 +1,20 @@
+% layout 'default';
+% title 'Welcome SQLi';
+<form method="post">
+<input type="text" name="id">
+<input type="submit" target="/" value="検索">
+<h2>ユーザリスト</h2>
+<table>
+<tr>
+  <th>id<th>
+  <th>food<th>
+</tr>
+<% for my $row(@$rows) { %>
+<tr>
+  <td><%= $row->id %></td>
+  <td><%= $row->food %></td>
+</tr>
+<% } %>
+</table>
+
+<a href="help.html">SQLi Cheet Sheet</a>

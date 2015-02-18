@@ -1,0 +1,11 @@
+create table user(id text unique,food text,password text);
+insert into user values('taro',"ramen","af$eaji@@");
+insert into user values('hanako',"gyoza","ef#ed@@");
+insert into user values('ichiro',"onigiri","!sdfaf#@@");
+insert into user values('daisuke',"yakiniku","afeaji@@");
+insert into user values('motonobu',"sushi","#123@@");
+insert into user values('hideo',"curry","d#fsc@@");
+insert into user values('seiichi',"soba","!!#$@@");
+insert into user values('takahiro',"cookie","sfefc%@@");
+insert into user values('nozomi',"sushi","3df=fa@@");
+insert into user values('yuko',"french","12$$23d@@");
