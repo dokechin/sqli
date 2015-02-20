@@ -2,7 +2,7 @@
 
 ## Usage
 
-curl -sSL https://get.docker.com/ubuntu/ | sudo sh
+http://docs.docker.com/installation/
 
 sudo docker build -t yourname/sqli ./
 
