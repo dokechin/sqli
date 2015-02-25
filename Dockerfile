@@ -16,4 +16,4 @@ ADD app.psgi   /sqli/
 WORKDIR /sqli
 RUN sqlite3  -init ./sql/create.sql sqli.db
 EXPOSE 5000
-ENTRYPOINT ["plackup"]
+ENTRYPOINT [ "plackup" ]
